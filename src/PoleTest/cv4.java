@@ -31,7 +31,6 @@ public class cv4 {
             }
         }
 
-
         //System.out.println(iLength);
         //System.out.println(indexy.length);
         //System.out.println("indexy: "+Arrays.toString(indexy));
