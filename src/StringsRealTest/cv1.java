@@ -35,6 +35,5 @@ public class cv1 {
                 break;
             }
         }
-        if (userName)
     }
 }
