@@ -16,3 +16,6 @@ public class cv1 {
         }
     }
 }
+
+//Mějte připravený ArrayList celých čísel. Vypište jej do konzole pozpátku (tj. od posledního
+//přidaného prvku).

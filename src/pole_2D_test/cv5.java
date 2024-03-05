@@ -36,3 +36,8 @@ public class cv5 {
         System.out.println("Filmy s průměrným skorém více jak 7,5: " + count);
     }
 }
+
+//Mějte 2D pole reprezentující recenze k filmům. Každé 1 pole reprezentuje 1 film, uvnitř
+//tohoto pole je několik celých čísel reprezentující recenzi k filmu (1-10):
+//Vypište, kolik filmů má průměrné skóre > 7.5.
+//AlternaƟvně: vypište, kolik filmů má pouze kladné recenze (kladná je > 7)

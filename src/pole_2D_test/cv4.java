@@ -30,3 +30,8 @@ public class cv4 {
 
     }
 }
+
+//Napište program, který vygeneruje 100x náhodná čísla 0 – 100 do ArrayListu. Po
+//vygenerování z pole odstraňte všechny čísla menší než 50. Dále vypište to konzole, kolik čísel
+//bylo odstraněno a obsah Listu po odstranění. Zamyslete se, jak by taková úloha vypadala,
+//kdybyste místo ArrayListu použili obyčejné pole.

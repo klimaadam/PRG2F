@@ -22,3 +22,7 @@ public class cv3 {
     }
 }
 
+//Napište program, kde je připravený ArrayList pro řetězce španělských podstatných jmen.
+//Uživatel bude zadávat řetězce, zadávání ukončí frází fin. Následně jsou do konzole vypsány
+//všechny řetězce se španělským členem (tj. vše, co začíná na (el/la/un_*slovo*).
+

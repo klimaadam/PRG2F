@@ -24,3 +24,6 @@ public class cv2 {
         System.out.println(count);
     }
 }
+
+//Mějte dvourozměrné pole celých čísel o velikosƟ 5x5. Zeptejte se uživatele na číslo sloupce.
+//Do konzole vypište součet čísel ve sloupci. (Předpokládejte uživatele, který vždy zadá číslo)
