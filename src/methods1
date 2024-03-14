@@ -1,0 +1,21 @@
+package Metody;
+
+import java.util.Arrays;
+public class cv1 {
+    public static int[] getMax(int[] array){
+        int max = array[0];
+        for (int i = 0; i < array.length; i++) {
+            if (array[i] > max){
+                max = array[i];
+            }
+        }
+        return new int[]{max};
+    }
+    public static void main(String[] args) {
+        int[] array = {1, 3, 2, 18, 15, 2};
+        System.out.println(Arrays.toString(getMax(array)));
+    }
+}
+
+//Napište metodu getMax(int[] array), která ze získaného pole vybere největší prvek a ten
+//následně vráơ (analogicky můžete vyzkoušet i nejmenší pro minimum)
