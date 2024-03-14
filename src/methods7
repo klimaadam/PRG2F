@@ -1,0 +1,23 @@
+package Metody;
+
+import java.util.Scanner;
+public class cv7 {
+    public static String hosts(String ip){
+        int prefix = Integer.parseInt(ip.substring(ip.length()-2));
+        double numHosts = Math.pow(2, 32-prefix);
+        numHosts -= 1;
+
+        String idk = ip.substring(0, ip.lastIndexOf('.')+1)+"0-"+numHosts;
+        return idk.substring(0, idk.length()-2);
+    }
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("zadej ip: ");
+        String ip = sc.nextLine();
+        System.out.println(hosts(ip));
+    }
+}
+
+//Napište metodu hosts(String ip), která přebere IP adresu ve formátu např. 192.168.1.8/24.
+//Zjistěte číslo prefixu (v tomhle případě /24) a spočtěte a přes metodu vraťte počet možných
+//adres ze sítě (v případě /24 je to 256 [což je 28] možnosơ: 192.168.1.0-255)
